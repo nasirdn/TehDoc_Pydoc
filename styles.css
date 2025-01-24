@@ -1,0 +1,72 @@
+/* styles.css */
+
+/* Сброс стилей для всех элементов */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили для body */
+body {
+    font-family: Times New Roman, sans-serif;
+    line-height: 1.6;
+    background-color: #EEF5FC;
+    color: #16446E;
+}
+
+/* Стили для заголовка */
+header {
+    background: #16446E;
+    color: #EEF5FC;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style-type: none; /* Убирает маркеры списка */
+    padding: 15px; /* Убирает отступы */
+}
+
+nav ul li {
+    margin: 10px 0; /* Отступы между элементами списка */
+}
+
+nav ul li a {
+    color: #16446E; /* Цвет текста ссылок */
+    text-decoration: none; /* Убирает подчеркивание */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+}
+
+/* Стили для основного содержимого */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #16446E;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #16446E;
+    color: #EEF5FC;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для заголовков секций */
+h1, h2 {
+    margin-bottom: 15px;
+}
